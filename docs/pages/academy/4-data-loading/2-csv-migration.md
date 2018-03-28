@@ -13,7 +13,7 @@ KB: academy
 
 In the last lesson, you should have learned how to load a file containing a (potentially very long) list of GRAQL statements into GRAKN.
 
-Since it is very likely that if you are migrating a pre-existing database to GRAKN, your data will not be in stored as GRAQL files, we need a way to a way to load some more common file formats, like CSV, into our knowledge graph .
+Since it is very likely that if you are migrating a pre-existing database to GRAKN, your data will not be in stored as GRAQL files, we need a way to load some more common file formats, like CSV, into our knowledge graph .
 
 To do this, we some more power added to GRAQL. Meet the GRAQL templating language.
 

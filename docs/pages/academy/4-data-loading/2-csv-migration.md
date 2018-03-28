@@ -15,7 +15,7 @@ In the last lesson, you should have learned how to load a file containing a (pot
 
 Since it is very likely that if you are migrating a pre-existing database to GRAKN, your data will not be in stored as GRAQL files, we need a way to a way to load some more common file formats, like CSV, into our knowledge graph .
 
-To do this, we some more power added to GRAQL. Meet the GRAQL templating language.
+To do this, we need some more power added to GRAQL. Meet the GRAQL templating language.
 
 ## Templates
 A template file is just a file written in GRAQL (with some added features) that acts as a filter: you "pour" your file through it and out comes GRAKN digestible data.
@@ -62,7 +62,7 @@ has distance-from-coast <DistCoast>}
 
 Let us examine the additions one by one, it’s nothing too hard.
 
-As you know, when running this template against a CSV file, the latter is scanned line by line and each line is converted into a GRAQL statement. When you add an "if", the content of the curly braces is added to the GRAQL statement only when the condition within brackets.
+As you know, when running this template against a CSV file, the latter is scanned line by line and each line is converted into a GRAQL statement. When you add an "if", the content of the curly braces is added to the GRAQL statement only when the condition within brackets is satisfied.
 
 The condition to be evaluated is simply a check on the value of one of the columns. In this case `<DistCoast> != ""` means that the value of the column DistCoast is not (that is what `!=` stands for) empty.
 

@@ -62,7 +62,7 @@ Our last task for this lesson is to identify the attributes in our schema. To fi
 In our case we have:
 
   * "Italy" is the _name_ of a country
-  * "18 kilometres" is the _distance from the coast__of an oil platform
+  * "18 kilometres" is the _distance from the coast_ of an oil platform
   * "Italian Referendum" is the _subject_ of an article
 
 We had already found all of the concepts to which our attributes are attached, so that is reassuring. And in fact we have assigned every item on the list, so we are actually done with our conceptual modeling. Good job!
